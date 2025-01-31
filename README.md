@@ -52,9 +52,8 @@ PLAY RECAP *********************************************************************
 localhost: ok=3 changed=1 failed=0
 ```
 ### 📌 Notes
-⚠️ The playbook does not recurse into nested subdirectories.  
 ⚠️ Ensure that each subdirectory is a valid Git repository.  
-⚙️ The Git command can be changed to other commands like git status or git fetch in vars/default_vars.yml.  
+⚙️ The Git command can be changed to git status or git fetch or other relevant ones in vars/default_vars.yml.  
 
 ### 📜 License
 📝 This project is licensed under the MIT License.
